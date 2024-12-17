@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    
+    <div id="start-screen">
+   
+      <h1>Quiz Game</h1>
+      <h4 style="padding-top: 20px; text-align: left;">Welcome to the Quiz Game! Follow the instructions given below</h4>
+      <ol>
+        <li style="padding-top: 10px; justify-content: center;">Read each question carefully before selecting an answer.</li>
+        <li>Select the correct answer from the multiple-choice options provided.</li>
+        <li>Click the "Next" button to proceed to the next question.</li>
+        <li>Once you answer a question, you can reset and change it.</li>
+        <li>After completing all the questions, your score will be displayed.</li>
+        <li>Try to answer as many questions correctly as possible to get a high score.</li>
+    </ol>
+    
+      <button id="start-btn">Start Game</button>
+    </div>
+
+   
+    <div id="game">
+      <h1>Quiz Game</h1>
+      <div class="quiz">
+        <h2 id="question">Question goes here</h2>
+        <div id="answer-buttons">
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 2</button>
+          <button class="btn">Answer 3</button>
+          <button class="btn">Answer 4</button>
+        </div>
+        <div class="controls">
+          <button id="next-btn">Next</button>
+          <button id="reset-btn">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
